@@ -1,0 +1,11 @@
+.card {
+	    background-color: #FFF;
+		border: 1px solid #F7F7F7;
+		box-shadow: 0 3px 12px rgba(0,0,0,0.10);
+}
+
+.card_titulo {
+				color: #999;
+				text-transform: uppercase;
+				padding: 1rem;
+}

@@ -1,0 +1,59 @@
+* { 
+	margin: 0;     
+	padding: 0;    
+	box-shadow: border
+ }
+
+/*
+Informar para as TAG´s html e body que altura e largura será utilizada em 100% 
+*/
+
+html,			   
+body {
+		width: 100%;
+		height: 100%;
+		background-color: #F2F2F2;
+}
+
+.corpo_tela {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	width: 60%;
+	height: 100%;
+}
+
+
+.linha_tela {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+}
+
+h1,
+h2 { text-align: center; }
+
+h1 {
+	margin-bottom: 3rem;
+	color: #37b6d6;
+	font-family: 'Pacifico',cursive;
+	font-size: 2.7rem;
+}
+
+h2 {
+	margin-top: 2rem;
+	font-size:  2rem;
+}
+
+input {
+	width: 90%;
+	height: 65px;
+	text-indent: 15px;
+	border-radius: 6px;
+	transition: all .3s ease-in-out;
+
+}
+
+
